@@ -8,12 +8,12 @@ print os.getcwd()
 print os.getcwdu()
 
 # To os.chdir() --> to change directory by giving the path as a string
-os.chdir("/Users/gururao/Desktop/Sahana/Notes")
+os.chdir(<Directory Path>)
 
 with (open("NewFile.txt","w")) as f:
     f.write("Hello")
 
 print os.getcwd()
 
-os.chdir("/Users/gururao/Desktop/Sahana/Python/2020Proj")
+os.chdir(<Directory Path>)
 print os.getcwd()
