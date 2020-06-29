@@ -17,3 +17,21 @@ print os.getcwd()
 
 os.chdir(<Directory Path>)
 print os.getcwd()
+
+
+print os.getcwd()
+print os.listdir(<Directory Path>)
+
+# os.rmdir(<Directory Path>)
+
+print os.getcwd()
+
+os.chdir(<Directory Path>)
+print os.listdir(<Directory Path>)
+
+# os.rename('Screenshots','XYZ')
+# print os.listdir(<Directory Path>)
+
+print os.getcwd()
+os.rename('XYZ','Screenshots')
+print os.listdir(<Directory Path>)
